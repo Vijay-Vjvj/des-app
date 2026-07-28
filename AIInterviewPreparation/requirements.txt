@@ -1,0 +1,23 @@
+# Core UI
+customtkinter==5.2.2
+pillow>=10.0.0
+
+# Resume parsing (PDF + DOCX)
+pdfplumber>=0.10.0
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+
+# Certificate generation (PDF)
+reportlab>=4.0.0
+
+# Voice Interview (speech-to-text)
+# NOTE: PyAudio and pocketsphinx can be tricky to install on some Windows
+# setups. If installation fails, the app still runs fine — the Voice
+# Interview button will simply show a message that speech recognition is
+# unavailable, and typed answers continue to work normally.
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13
+pocketsphinx>=5.0.0
+
+# Packaging into a standalone .exe
+pyinstaller>=6.0.0
